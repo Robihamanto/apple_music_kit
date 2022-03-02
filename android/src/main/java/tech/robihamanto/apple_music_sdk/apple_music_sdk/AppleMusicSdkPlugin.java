@@ -2,6 +2,8 @@ package tech.robihamanto.apple_music_sdk.apple_music_sdk;
 
 import androidx.annotation.NonNull;
 
+import com.apple.android.sdk.authentication.AuthenticationFactory;
+
 import io.flutter.embedding.engine.plugins.FlutterPlugin;
 import io.flutter.plugin.common.MethodCall;
 import io.flutter.plugin.common.MethodChannel;
@@ -29,10 +31,26 @@ public class AppleMusicSdkPlugin implements FlutterPlugin, MethodCallHandler {
     } else {
       result.notImplemented();
     }
+
+    if (call.method.equals("getUserToken")) {
+      String developerToken = call.argument("developer-token");
+      //AuthenticationFactory
+//      devToken?.let {
+//        appleMusicRequestPermission(devToken)
+//      }
+    } else {
+      result.notImplemented();
+    }
+
   }
 
   @Override
   public void onDetachedFromEngine(@NonNull FlutterPluginBinding binding) {
     channel.setMethodCallHandler(null);
   }
+
+  public  void getUserToken(@NonNull MethodCall call, @NonNull Result result) {
+
+  }
+
 }

@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/apple_music_sdk.iml" filepath="$PROJECT_DIR$/.idea/modules/apple_music_sdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/musickit/apple_music_sdk.musickit.iml" filepath="$PROJECT_DIR$/.idea/modules/musickit/apple_music_sdk.musickit.iml" />
     </modules>
   </component>
 </project>
