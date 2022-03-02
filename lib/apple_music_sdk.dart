@@ -1,7 +1,19 @@
 library apple_music_sdk;
 
-/// A Calculator.
-class Calculator {
+import 'package:flutter/foundation.dart';
+
+/// A AppleMusicSDK crate all of the function needed to play music on Apple Music.
+class AppleMusicSDK {
+
+  static String developerToken = '';
+
   /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
+  static Future<String?> getUserToken() async {
+    if (developerToken.isEmpty) {
+      debugPrint('DEVELOPER TOKEN IS EMPTY');
+      return null;
+    }
+    return 'USER TOKEN';
+  }
+
 }
