@@ -1,11 +1,11 @@
 {
-    "name": "example",
-    "short_name": "example",
+    "name": "apple_music_sdk_example",
+    "short_name": "apple_music_sdk_example",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "An example of how to use Apple Music SDK",
+    "description": "Demonstrates how to use the apple_music_sdk plugin.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

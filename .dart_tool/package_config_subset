@@ -1,7 +1,7 @@
 apple_music_sdk
 2.12
-file:///Users/robihamanto/dev/apple_music_sdk/
-file:///Users/robihamanto/dev/apple_music_sdk/lib/
+file:///Users/robihamanto/dev/apple_music_sdk_old/
+file:///Users/robihamanto/dev/apple_music_sdk_old/lib/
 async
 2.12
 file:///Users/robihamanto/dev/flutter/.pub-cache/hosted/pub.dartlang.org/async-2.8.1/
@@ -34,6 +34,10 @@ flutter_lints
 2.12
 file:///Users/robihamanto/dev/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_lints-1.0.4/
 file:///Users/robihamanto/dev/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_lints-1.0.4/lib/
+js
+2.12
+file:///Users/robihamanto/dev/flutter/.pub-cache/hosted/pub.dartlang.org/js-0.6.3/
+file:///Users/robihamanto/dev/flutter/.pub-cache/hosted/pub.dartlang.org/js-0.6.3/lib/
 lints
 2.12
 file:///Users/robihamanto/dev/flutter/.pub-cache/hosted/pub.dartlang.org/lints-1.0.1/
@@ -94,4 +98,8 @@ flutter_test
 2.12
 file:///Users/robihamanto/dev/flutter/packages/flutter_test/
 file:///Users/robihamanto/dev/flutter/packages/flutter_test/lib/
+flutter_web_plugins
+2.12
+file:///Users/robihamanto/dev/flutter/packages/flutter_web_plugins/
+file:///Users/robihamanto/dev/flutter/packages/flutter_web_plugins/lib/
 2

@@ -1,19 +1,13 @@
-library apple_music_sdk;
 
-import 'package:flutter/foundation.dart';
+import 'dart:async';
 
-/// A AppleMusicSDK crate all of the function needed to play music on Apple Music.
-class AppleMusicSDK {
+import 'package:flutter/services.dart';
 
-  static String developerToken = '';
+class AppleMusicSdk {
+  static const MethodChannel _channel = MethodChannel('apple_music_sdk');
 
-  /// Returns [value] plus 1.
-  static Future<String?> getUserToken() async {
-    if (developerToken.isEmpty) {
-      debugPrint('DEVELOPER TOKEN IS EMPTY');
-      return null;
-    }
-    return 'USER TOKEN';
+  static Future<String?> get platformVersion async {
+    final String? version = await _channel.invokeMethod('getPlatformVersion');
+    return version;
   }
-
 }

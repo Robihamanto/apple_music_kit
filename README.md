@@ -1,34 +1,15 @@
-This package will allow your Flutter app to play a song with Apple Music.
+# apple_music_sdk
 
-## Features
+Plugin that allows you to play any song from Apple Music
 
-1. Authenticate the user to obtain user token
-2. Play preview music
-3. Play personalized music from user
+## Getting Started
 
-## Getting started
+This project is a starting point for a Flutter
+[plug-in package](https://flutter.dev/developing-packages/),
+a specialized package that includes platform-specific implementation code for
+Android and/or iOS.
 
-1. Prepare your MusicKit token (detail below)
-2.
+For help getting started with Flutter, view our
+[online documentation](https://flutter.dev/docs), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
 
-
-### How to generate Apple MusicKit token:
-1. Get your token from Apple documentation: https://developer.apple.com/documentation/applemusicapi/getting_keys_and_creating_tokens
-2. Generate token with this code: https://github.com/pelauimagineering/apple-music-token-generator
-
-## Usage
-
-Setting up your token:
-```dart
-const userToken = ApplMusicSdk.developerToken = [YOUR APPLE MUSIC KIT TOKEN];
-```
-
-Authenticate user to obtain token
-```dart
-const userToken = ApplMusicSdk.authenticateUser();
-```
-
-## Additional information
-
-1. You need to have Apple Developer account program to generate Apple music token
-2. You need to have Apple Music subscription if you want to play full music

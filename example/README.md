@@ -1,6 +1,6 @@
-# example
+# apple_music_sdk_example
 
-An example of how to use Apple Music SDK
+Demonstrates how to use the apple_music_sdk plugin.
 
 ## Getting Started
 
