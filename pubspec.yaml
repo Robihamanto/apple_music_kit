@@ -1,7 +1,7 @@
 name: apple_music_sdk
 description: Connecting your flutter app with Apple Music.
 version: 0.0.1
-homepage:
+homepage: https://github.com/Robihamanto/apple_music_sdk
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
